@@ -37,7 +37,6 @@ body{
 }
 header{
     background-image: linear-gradient(180deg,var(--cor3),var(--cor5));
-    height: 150px;
     h1{
         font-size: 3em;
         padding: 25px;
@@ -45,8 +44,7 @@ header{
         color: white;
         font-family: var(--fonte-destaque);
     }
-    p{
-        padding-bottom: 10px;
+    >p{ 
         text-align: center;
         color: white;
         min-width: 100px;
@@ -54,6 +52,7 @@ header{
         padding-left: 10px;
         padding-right: 10px;
         margin: auto;
+        padding-bottom: 30px;
     }
 }
 
